@@ -1,6 +1,6 @@
 ## UI Tests Automation
 
-#### This framework is for providing the automated tests for UI Tests.
+#### This framework is for providing the automated tests for UI.
 
 #### Technologies :
     - WebDriverIO as base layer
