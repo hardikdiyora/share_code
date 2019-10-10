@@ -1,0 +1,8 @@
+# Intellije files
+.idea
+
+# dependencies
+/node_modules
+
+# logs
+/output_logs
