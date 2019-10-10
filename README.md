@@ -30,7 +30,7 @@
     - A specific spec/test file :
         > ./node_modules/.bin/wdio wdio.conf.js --spec {SPEC_FILE} --uname {USERNAME} --pwd {PASSWORD}
     - Run tests with firefox browser : 
-            > npm test -- --uname {USERNAME} --pwd {PASSWORD} --browser firefox
+        > npm test -- --uname {USERNAME} --pwd {PASSWORD} --browser firefox
     - To get help document :
         > npm test 
 3. Once tests execution completes it creates 'output_logs' for test runner logs and screen shots for failed tests.
