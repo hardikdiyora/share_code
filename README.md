@@ -1,6 +1,6 @@
 ## Tests Automation
 
-#### This framework is for providing the automated tests for API as well as UI.
+#### The Test Automation framework which allows to create UI and API Tests. I have used best practices like page object pattern to keep the framework as maintainable as possible.
 
 #### Technologies :
     - Node as JavaScript runner
@@ -9,11 +9,11 @@
     - supertest for api tests layer
     - WebDriverIO for ui tests layer   
     - Chai as assertion library 
-    - Page object model with layered architecture
+ 
 
 #### Pre-requisite :
 
-    - Install JAVA JDK v8 or more.
+    - Install JAVA JDK v8 or higher.
     - Install NodeJS, chrome or firefox browser. 
     - Clone the code
     - Checkout "package.json" file to know which all 
@@ -23,7 +23,7 @@
 
 #### Get started :
 
-1. Run command for install node packages in the project folder: 
+1. Run below command to install node packages in the project folder: 
     > npm install
 2. To run 
 
