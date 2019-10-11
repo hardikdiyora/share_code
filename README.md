@@ -29,7 +29,7 @@
 
     - API :
         - All API tests : 
-            > npm run test:api -- --token {TOKEN inside comma}
+            > npm run test:api -- --token {TOKEN inside quotes}
  
     - UI :
         - All UI tests : 
