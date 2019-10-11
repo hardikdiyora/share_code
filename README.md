@@ -9,6 +9,7 @@
     - supertest for api tests layer
     - WebDriverIO for ui tests layer   
     - Chai as assertion library 
+    - Page object model with layered architecture
 
 #### Pre-requisite :
 
