@@ -14,7 +14,7 @@ exports.config = {
     // Define which test specs should run. The pattern is relative to the directory
     // from which `wdio` was called.
     specs: [
-        './tests/**/**/*.test.js'
+        './tests/ui/**/*.test.js'
     ],
     suites: {
         login: [
@@ -27,11 +27,7 @@ exports.config = {
             './tests/ui/invoices/*.test.js'
         ]
     },
-    // Patterns to exclude.
-    exclude: [
-        // 'path/to/excluded/files'
-    ],
-
+ 
     // number of instances that wdio invoke while running specs
     maxInstances: 10,
     // browsers capabilities

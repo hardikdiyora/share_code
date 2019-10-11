@@ -4,7 +4,8 @@
   "description": "The test automation using WebDriverIO.",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "test:ui": "wdio",
+    "test:api": "mocha ./tests/api/**/*.test.js --require @babel/register"
   },
   "keywords": [
     "JavaScript",
@@ -23,10 +24,11 @@
     "@wdio/mocha-framework": "^5.14.4",
     "@wdio/selenium-standalone-service": "^5.13.2",
     "@wdio/spec-reporter": "^5.14.4",
-    "@wdio/sync": "^5.14.4"
-  },
-  "dependencies": {
+    "@wdio/sync": "^5.14.4",
     "chai": "^4.2.0",
-    "yargs": "^14.2.0"
+    "mocha": "^6.2.1",
+    "supertest": "^4.0.2",
+    "yargs": "^14.2.0",
+    "jsonschema": "^1.2.4"
   }
 }
