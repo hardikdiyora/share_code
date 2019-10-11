@@ -1,3 +1,4 @@
+// response body for /resources api
 export const vehical_resources = [
     {
       "name": "decklidstatus",
