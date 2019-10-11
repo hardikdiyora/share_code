@@ -13,7 +13,8 @@
 
 #### Pre-requisite :
 
-    - Install nodejs
+    - Install JAVA JDK v8 or more.
+    - Install NodeJS, chrome or firefox browser. 
     - Clone the code
     - Checkout "package.json" file to know which all 
       packages are used.
@@ -22,16 +23,14 @@
 
 #### Get started :
 
-1. Run command for install node packages : 
+1. Run command for install node packages in the project folder: 
     > npm install
 2. To run 
 
     - API :
         - All API tests : 
-            > npm run test:api
-        - A specific spec/test file : 
-            > ./node_modules/.bin/mocha {SPEC_FILE}                            
-
+            > npm run test:api -- --token {TOKEN inside comma}
+ 
     - UI :
         - All UI tests : 
             > npm run test:ui -- --uname {USERNAME} --pwd {PASSWORD}
