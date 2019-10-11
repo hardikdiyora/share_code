@@ -53,7 +53,8 @@
             └── url.js
         api_modules
             ├── constant.js
-            ├── response_scemas.js
+            ├── response_scema.js
+            ├── test_data/resources.js
             └── schema_validation.js
         pages
             ├── base.page.js

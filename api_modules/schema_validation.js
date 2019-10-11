@@ -1,7 +1,7 @@
 const validate = require('jsonschema').validate;
 
 /**
- * to validate the response json body with its schema
+ * to validate the response json schema
  * @param {*} schema the schema of the json body
  * @param {*} response the actual response body
  * 

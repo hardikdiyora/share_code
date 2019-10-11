@@ -1,5 +1,6 @@
 import { validateResponseSchema } from '../../../api_modules/schema_validation';
-import { resources_schema, decklids_status_schema, error_schema } from '../../../api_modules/response_scemas';
+import { vehical_resources } from '../../../api_modules/test_data/resources';
+import { resources_schema, decklids_status_schema, error_schema } from '../../../api_modules/response_schema';
 import { url, token, vehicleId } from '../../../api_modules/constant';
 const assert = require('chai').assert;
 const request =  require('supertest');
@@ -15,6 +16,7 @@ describe('Tests related to vehical status APIs', () => {
             .expect(200);
         assert.equal(response.body.length, 16);
         assert.isTrue(validateResponseSchema(resources_schema, response.body));    
+        assert.isTrue(JSON.stringify(response.body) == JSON.stringify(vehical_resources));
     });  
 
     it('should GET /resources with response 401 Unautorized', async () => {
